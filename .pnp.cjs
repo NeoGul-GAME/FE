@@ -27,6 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@types/node", "npm:20.14.11"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@typescript-eslint/eslint-plugin", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:7.17.0"],\
@@ -781,6 +782,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@types-estree-npm-1.0.5-5b7faed3b4-b3b0e33428.zip/node_modules/@types/estree/",\
         "packageDependencies": [\
           ["@types/estree", "npm:1.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/node", [\
+      ["npm:20.14.11", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-20.14.11-5ca92cae2d-5306becc0f.zip/node_modules/@types/node/",\
+        "packageDependencies": [\
+          ["@types/node", "npm:20.14.11"],\
+          ["undici-types", "npm:5.26.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2656,6 +2667,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["neogul-fe", "workspace:."],\
+          ["@types/node", "npm:20.14.11"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@typescript-eslint/eslint-plugin", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:7.17.0"],\
@@ -3599,6 +3611,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["undici-types", [\
+      ["npm:5.26.5", {\
+        "packageLocation": "./.yarn/cache/undici-types-npm-5.26.5-de4f7c7bb9-bb673d7876.zip/node_modules/undici-types/",\
+        "packageDependencies": [\
+          ["undici-types", "npm:5.26.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["unique-filename", [\
       ["npm:3.0.0", {\
         "packageLocation": "./.yarn/cache/unique-filename-npm-3.0.0-77d68e0a45-6363e40b2f.zip/node_modules/unique-filename/",\
@@ -3676,7 +3697,7 @@ const RAW_RUNTIME_STATE =
           ["vite", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:5.3.4"],\
           ["@types/less", null],\
           ["@types/lightningcss", null],\
-          ["@types/node", null],\
+          ["@types/node", "npm:20.14.11"],\
           ["@types/sass", null],\
           ["@types/stylus", null],\
           ["@types/sugarss", null],\
