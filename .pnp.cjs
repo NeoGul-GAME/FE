@@ -44,6 +44,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/parser", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:7.17.0"],\
           ["@vitejs/plugin-react-swc", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:3.7.0"],\
           ["autoprefixer", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:10.4.19"],\
+          ["chromatic", "virtual:19be38f94729b1fb087a300b9a7c63ec2c57d2df64741cda7314db07da574572d703c2d1b2894836316a2c36c5fc8eab47d060f6780041cfcc4aa93039081bca#npm:11.10.2"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-plugin-react", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:7.35.0"],\
           ["eslint-plugin-react-hooks", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:4.6.2"],\
@@ -6550,6 +6551,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/parser", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:7.17.0"],\
           ["@vitejs/plugin-react-swc", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:3.7.0"],\
           ["autoprefixer", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:10.4.19"],\
+          ["chromatic", "virtual:19be38f94729b1fb087a300b9a7c63ec2c57d2df64741cda7314db07da574572d703c2d1b2894836316a2c36c5fc8eab47d060f6780041cfcc4aa93039081bca#npm:11.10.2"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-plugin-react", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:7.35.0"],\
           ["eslint-plugin-react-hooks", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:4.6.2"],\
