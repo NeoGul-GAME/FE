@@ -53,6 +53,7 @@ const RAW_RUNTIME_STATE =
           ["react-dom", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:18.3.1"],\
           ["react-router-dom", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:6.25.1"],\
           ["storybook", "npm:8.3.0"],\
+          ["tailwind-merge", "npm:2.5.2"],\
           ["tailwindcss", "npm:3.4.6"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["vite", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:5.3.4"]\
@@ -6534,6 +6535,7 @@ const RAW_RUNTIME_STATE =
           ["react-dom", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:18.3.1"],\
           ["react-router-dom", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:6.25.1"],\
           ["storybook", "npm:8.3.0"],\
+          ["tailwind-merge", "npm:2.5.2"],\
           ["tailwindcss", "npm:3.4.6"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["vite", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:5.3.4"]\
@@ -8142,6 +8144,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/supports-preserve-symlinks-flag-npm-1.0.0-f17c4d0028-6c40323407.zip/node_modules/supports-preserve-symlinks-flag/",\
         "packageDependencies": [\
           ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tailwind-merge", [\
+      ["npm:2.5.2", {\
+        "packageLocation": "./.yarn/cache/tailwind-merge-npm-2.5.2-dc41943d9c-e43a9a468f.zip/node_modules/tailwind-merge/",\
+        "packageDependencies": [\
+          ["tailwind-merge", "npm:2.5.2"]\
         ],\
         "linkType": "HARD"\
       }]\
