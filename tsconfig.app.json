@@ -26,9 +26,9 @@
         /* Paths */
         "baseUrl": ".",
         "paths": {
-            "@/*": ["./src/app/*"]
+            "@/*": ["./src/*"]
         }
     },
-    "include": ["src", "src/app.tsx"],
+    "include": ["src"],
     "exclude": ["node_modules", "dist"]
 }

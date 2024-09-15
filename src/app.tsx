@@ -7,18 +7,15 @@ import {
     RouterProvider
 } from "react-router-dom";
 
-import "@/../app.css";
+import "@/app.css";
 
-const LoginPage = lazy(() => import("@/login/page"));
 
 const router = createBrowserRouter(
     createRoutesFromElements(
         <Route
             path="/login"
             element={
-                <Suspense fallback={<div>Loading login page</div>}>
-                    <LoginPage />
-                </Suspense>
+                <div>Hell world</div>
             }
         />
     )
