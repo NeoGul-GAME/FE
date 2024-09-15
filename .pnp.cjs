@@ -32,6 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/addon-interactions", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:8.3.0"],\
           ["@storybook/addon-links", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:8.3.0"],\
           ["@storybook/addon-onboarding", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:8.3.0"],\
+          ["@storybook/addon-themes", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:8.3.0"],\
           ["@storybook/blocks", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:8.3.0"],\
           ["@storybook/react", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:8.3.0"],\
           ["@storybook/react-vite", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:8.3.0"],\
@@ -1461,6 +1462,29 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@storybook/addon-outline", "virtual:fd1bbf777d987162d416a5465a4633ed1b8a308bcfd1edb95f1df84e2d9f4166650276ab88502d9057c9c3da711e6d5f99f0193ed27892d450247b0daa5794c1#npm:8.3.0"],\
           ["@storybook/global", "npm:5.0.0"],\
+          ["@types/storybook", null],\
+          ["storybook", "npm:8.3.0"],\
+          ["ts-dedent", "npm:2.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/storybook",\
+          "storybook"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@storybook/addon-themes", [\
+      ["npm:8.3.0", {\
+        "packageLocation": "./.yarn/cache/@storybook-addon-themes-npm-8.3.0-62a1cac0cb-7cae25f0fc.zip/node_modules/@storybook/addon-themes/",\
+        "packageDependencies": [\
+          ["@storybook/addon-themes", "npm:8.3.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:8.3.0", {\
+        "packageLocation": "./.yarn/__virtual__/@storybook-addon-themes-virtual-96e5d7b43d/0/cache/@storybook-addon-themes-npm-8.3.0-62a1cac0cb-7cae25f0fc.zip/node_modules/@storybook/addon-themes/",\
+        "packageDependencies": [\
+          ["@storybook/addon-themes", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:8.3.0"],\
           ["@types/storybook", null],\
           ["storybook", "npm:8.3.0"],\
           ["ts-dedent", "npm:2.2.0"]\
@@ -6514,6 +6538,7 @@ const RAW_RUNTIME_STATE =
           ["@storybook/addon-interactions", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:8.3.0"],\
           ["@storybook/addon-links", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:8.3.0"],\
           ["@storybook/addon-onboarding", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:8.3.0"],\
+          ["@storybook/addon-themes", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:8.3.0"],\
           ["@storybook/blocks", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:8.3.0"],\
           ["@storybook/react", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:8.3.0"],\
           ["@storybook/react-vite", "virtual:6e1227095cfc2014cd0fdf5334397dfc1f759ba855c1c716688355bd8d1cdeb8aeeeabfcbe459d3a18031c3984840d097656c1c66cc8e02984965bfcca898d2e#npm:8.3.0"],\
