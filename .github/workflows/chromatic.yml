@@ -18,6 +18,10 @@ jobs:
             - uses: actions/setup-node@v4
               with:
                   node-version: 20
+            - name: Enable Corepack
+              run: corepack enable
+            - name: Set Yarn version to 4.3.1
+              run: corepack prepare yarn@4.3.1 --activate
             - name: Install dependencies
               run: yarn install
             - name: Run Chromatic
