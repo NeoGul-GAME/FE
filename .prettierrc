@@ -1,6 +1,6 @@
 {
     "arrowParens": "always",
-    "bracketSameLine": true,
+    "bracketSameLine": false,
     "endOfLine": "lf",
     "bracketSpacing": true,
     "cursorOffset": -1,
