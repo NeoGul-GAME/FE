@@ -1,5 +1,4 @@
 import Image from "@/components/atoms/Image";
-import Wrapper from "@/components/atoms/Wrapper";
 import { ImgHTMLAttributes } from "react";
 import { twJoin } from "tailwind-merge";
 
@@ -11,7 +10,7 @@ export default function Avatar({ src, size, alt, ...props }: AvatarProps) {
     const sizeClass = getAvatarSize(size);
 
     return (
-        <Wrapper
+        <div
             className={twJoin("rounded-full overflow-clip", sizeClass)}
             {...props}
         >
@@ -23,7 +22,7 @@ export default function Avatar({ src, size, alt, ...props }: AvatarProps) {
                 src={src}
                 alt={alt}
             />
-        </Wrapper>
+        </div>
     );
 }
 

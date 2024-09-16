@@ -4,7 +4,7 @@ import Avatar from "@/components/molecules/Avatar";
 import me from "@/assets/images/me.jpg";
 
 const meta = {
-    title: "Atoms/Avatar",
+    title: "Molecules/Avatar",
     component: Avatar,
     parameters: {
         layout: "centered"
