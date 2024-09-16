@@ -6,7 +6,9 @@ export interface AvatarProps extends ImgHTMLAttributes<HTMLDivElement> {
     size: "small" | "medium" | "large";
 }
 
-export default function Avatar({ src, size, alt, ...props }: AvatarProps) {
+export default function Avatar(props: AvatarProps) {
+    const { src, alt, size } = props;
+
     const sizeClass = getAvatarSize(size);
 
     return (
