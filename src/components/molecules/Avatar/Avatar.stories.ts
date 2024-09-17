@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import Avatar from "@/components/molecules/Avatar";
 
-import me from "@/assets/images/me.jpg";
+import me from "@/assets/images/me.webp";
 
 const meta = {
     title: "Molecules/Avatar",
