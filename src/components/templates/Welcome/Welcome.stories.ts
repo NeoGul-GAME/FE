@@ -1,14 +1,14 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import SkyBackground from "@/components/templates/SkyBackground";
+import Welcome from "@/components/templates/Welcome";
 
-const meta = {
-    title: "Templates/SkyBackground",
-    component: SkyBackground,
+const meta: Meta = {
+    title: "Templates/Welcome",
+    component: Welcome,
     parameters: {
         layout: "fullscreen"
     },
     tags: ["autodocs"]
-} satisfies Meta<typeof SkyBackground>;
+};
 
 export default meta;
 
