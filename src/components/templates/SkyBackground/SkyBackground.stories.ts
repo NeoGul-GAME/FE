@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import Clouds from "@/components/templates/Clouds";
+import Clouds from "@/components/templates/SkyBackground";
 
 const meta: Meta = {
-    title: "Templates/Clouds",
+    title: "Templates/SkyBackground",
     component: Clouds,
     parameters: {
         layout: "fullscreen"
