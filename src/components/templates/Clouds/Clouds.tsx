@@ -1,4 +1,4 @@
-import styles from "@/components/organisms/Clouds/Clouds.module.css";
+import styles from "@/components/templates/Clouds/Clouds.module.css";
 import { HTMLAttributes } from "react";
 
 interface CloudsProps extends HTMLAttributes<HTMLDivElement> {}
