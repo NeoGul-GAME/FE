@@ -19,12 +19,12 @@ const buttonVariants = cva(
             },
             size: {
                 medium: "px-4 py-2",
-                "2xl": "px-6 py-3 text-sm sm:text-base"
+                "2xl": "px-7 py-3 sm:py-3"
             },
             colour: {
                 default: "",
-                primary: "bg-[--colour-brown] border-2 border-[--colour-dark-brown] text-white",
-                secondary: "bg-[--colour-light-brown] border-2 border-[--colour-dark-brown] text-white"
+                primary: "bg-[--colour-brown] border-[0.25rem] border-[--colour-dark-brown] text-white",
+                secondary: "bg-[--colour-light-brown] border-[0.25rem] border-[--colour-dark-brown] text-white"
             }
         },
         defaultVariants: {
