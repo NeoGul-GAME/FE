@@ -6,8 +6,7 @@ const meta: Meta = {
     component: Welcome,
     parameters: {
         layout: "fullscreen"
-    },
-    tags: ["autodocs"]
+    }
 };
 
 export default meta;
