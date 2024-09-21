@@ -1,10 +1,11 @@
 import styles from "@/components/templates/SkyBackground/SkyBackground.module.css";
 import { HTMLAttributes } from "react";
+import { Outlet } from "react-router-dom";
 import { twJoin } from "tailwind-merge";
 
 interface SkyBackgroundProps extends HTMLAttributes<HTMLDivElement> {}
 
-export default function SkyBackground({ children, ...props }: SkyBackgroundProps) {
+export default function SkyBackground(props: SkyBackgroundProps) {
     return (
         <>
             <div
@@ -19,7 +20,7 @@ export default function SkyBackground({ children, ...props }: SkyBackgroundProps
                 ))}
             </div>
 
-            {children}
+            <Outlet />
         </>
     );
 }

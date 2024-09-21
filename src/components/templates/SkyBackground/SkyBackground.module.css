@@ -1,8 +1,8 @@
 .clouds {
-    background: #c9dbe9;
-    background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
-    background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
-    background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+    background: linear-gradient(-10deg, #fec6c6 0%, #b8d7f5 100%);
+    background: -webkit-linear-gradient(-10deg, #fec6c6 0%, #b8d7f5 100%);
+    background: -linear-gradient(-10deg, #fec6c6 0%, #b8d7f5 100%);
+    background: -moz-linear-gradient(-10deg, #fec6c6 0%, #b8d7f5 100%);
 
     overflow: hidden;
 }

@@ -6,8 +6,7 @@ const meta = {
     component: SkyBackground,
     parameters: {
         layout: "fullscreen"
-    },
-    tags: ["autodocs"]
+    }
 } satisfies Meta<typeof SkyBackground>;
 
 export default meta;
