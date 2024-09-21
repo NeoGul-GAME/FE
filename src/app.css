@@ -2,10 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root,
-body,
-#root {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+@layer base {
+    :root,
+    body,
+    #root,
+    #storybook-root {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+
+        /* 구글 웹폰트 Noto Sans KR */
+        font-family: "Noto Sans KR", sans-serif;
+    }
+
+    :root {
+        /* 색상 */
+        --colour-brown-rgb: 135, 70, 26;
+        --colour-brown: rgb(var(--colour-brown-rgb));
+        --colour-light-brown: #946647;
+        --colour-dark-brown: #6e4637;
+    }
+
+    /* 드래그 스타일 */
+    ::selection {
+        background-color: rgba(var(--colour-brown-rgb), 0.5);
+        color: white;
+    }
 }
