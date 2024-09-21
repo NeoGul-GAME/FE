@@ -19,7 +19,7 @@ const buttonVariants = cva(
             },
             size: {
                 medium: "px-4 py-2",
-                "2xl": "px-6 py-3 text-base"
+                "2xl": "px-6 py-3 text-sm sm:text-base"
             },
             colour: {
                 default: "",
